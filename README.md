@@ -44,13 +44,13 @@
 
 ## 📌 Featured Projects  <br><br>
 
-### 🔐 [Password Manager](<GitHub Repo Link>)  
+### 🔐 [PassCrypt – AES-Encrypted Password Manager](<GitHub Repo Link>)  
 🔹 Built with **MERN stack**, featuring **AES encryption** for secure password storage.  <br><br>
 
-### 🚀 [Crowdfunding Web App](<GitHub Repo Link>)  
+### 🚀 [LifeAid – Donation Platform for Cancer Treatment](<GitHub Repo Link>)  
 🔹 A **full-stack crowdfunding platform** with secure **Razorpay** payments & MongoDB database.  <br><br>
 
-### 🎵 [Spotify Clone](<GitHub Repo Link>)  
+### 🎵 [MusicVibes – An Interactive Music Streaming UI](<GitHub Repo Link>)  
 🔹 A **responsive** frontend music player with JavaScript-powered playback & dynamic UI.  <br><br>
 
 ---
