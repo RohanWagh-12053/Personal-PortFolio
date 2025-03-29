@@ -48,7 +48,7 @@
 🔹 Built with **MERN stack**, featuring **AES encryption** for secure password storage.  <br><br>
 
 ### 🤝 [LifeAid – Donation Platform for Cancer Treatment](<GitHub Repo Link>)  
-🔹 A **full-stack crowdfunding platform** with secure **Razorpay** payments & MongoDB database.  <br><br>
+🔹 A **full-stack donation platform** with secure **Razorpay** payments & MongoDB database.  <br><br>
 
 ### 🎵 [MusicVibes – An Interactive Music Streaming UI](<GitHub Repo Link>)  
 🔹 A **responsive** frontend music player with JavaScript-powered playback & dynamic UI.  <br><br>
