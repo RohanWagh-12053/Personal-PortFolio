@@ -55,7 +55,7 @@
 
 ---
 
-## 🌍 Let's Connect  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/rohan-wagh-45291b336)  
+## 🌍 Let's Connect   - linkedin.com/in/rohan-wagh-45291b336
+
 
 ---
