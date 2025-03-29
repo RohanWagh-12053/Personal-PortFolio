@@ -55,6 +55,6 @@
 
 ---
 
-## 🌍 Let's Connect   -[LinkedIn](linkedin.com/in/rohan-wagh-45291b336)
+## 🌍 Let's Connect   -   [LinkedIn](linkedin.com/in/rohan-wagh-45291b336)
 
 ---
