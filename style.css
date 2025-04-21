@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins";
+    
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+nav .imageofnav{
+    height: 45px;
+    margin-left: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    margin-right: 1.5cm;
+}
+
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(153, 153, 226);
+    border: 1px solid;
+    align-items: center;
+    border-color: rgb(18, 18, 62);
+    
+    
+    font-size: 1.32rem;
+}
+nav .left{
+margin-right: 100px;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.left {
+    font-size: 2rem;
+    width: 12cm;
+    left: 0px;
+    
+}
+.right{
+    margin-left: 10cm;
+    font-size:1.3rem ;
+   
+}
+
+.firstSection {
+    padding-top: 130px;
+    top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0;
+    
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.leftSection .buttons {
+    padding: 50px 0;
+    
+}
+
+.leftSection .btn {
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 6cm;
+    height: 1.3cm;
+}
+
+/* .leftSection .btn2 {
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 6cm;
+    height: 1.3cm;
+} */
+
+.rightSection {
+    width: 34px;
+}
+
+.rightSection img {
+    width: 80%;
+    filter: drop-shadow(10px 10px 20px rgb(89, 47, 151));
+}
+
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
+
+.secondSection {
+    padding-top: 100px;
+    max-width: 80vw;
+    margin-top: 50px;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection h1 {
+    font-size: 2.6rem;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+.secondSection .horizontal-line {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical-line {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 200px;
+}
+
+.textgray {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: gray;
+}
+
+.secondSection span {
+    margin-top: 100px;
+}
+
+.imagetop {
+    width: 46px;
+    position: relative;
+    top: -51px;
+    left: -20px;
+}
+
+.imagetopH {
+    width: 46px;
+    position: relative;
+    top: -53px;
+    left: -20px;
+}
+
+.imagetopg {
+    width: 38px;
+    position: relative;
+    top: -51px;
+    left: -20px;
+}
+
+.imagetopinsta {
+    width: 50px;
+    position: relative;
+    top: -53px;
+    left: -20px;
+}
+
+.vertical-Role {
+    position: relative;
+    top: 75px;
+    width: 269px;
+    font-size: 1.8rem;
+}
+
+.vertical-description {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 230px;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #0e0e1a;
+    /* //height: 233px; */
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer div {
+    width: 223px;
+    font-size: 1.3rem;
+}
+
+footer .footerrights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+    font-size: 1.5rem;
+
+}
+
+.footer .footerfirst {
+    padding-top: 30px;
+    width: 320px;
+    padding-left: 6cm;
+}
+footer .footerfourth{
+padding-left: 6cm;
+padding-right: 2cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+footer ul li {
+    margin: 1cm 1cm;
+}
+.main2{
+    margin-left: 5cm;
+    padding-bottom: 5cm;
+    padding-top: 160px;
+}
+.fieldsets{
+    border-radius: 20px;
+    width: 90%;
+    
+    
+
+}
+fieldset .firstService{
+    margin-left: 1.7cm;
+    margin-top: 1cm;
+    margin-bottom: 1.7cm;
+    
+
+}
+fieldset .secondService{
+    margin-left: 1.7cm;
+    margin-top: 1cm;
+    margin-bottom: 1.7cm;
+    
+
+}
+fieldset .thirdService{
+    margin-left: 1.7cm;
+    margin-top: 1cm;
+    margin-bottom: 1.7cm;
+    
+
+}
+.services h1 {
+    font-size: 2.6rem;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+fieldset span{
+    font-size: 1.2rem;
+    
+ 
+}

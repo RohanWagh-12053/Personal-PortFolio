@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohan's Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <div ><img class="imageofnav" src="firefoxBlue.png" alt=""></div>
+        <div class="left" >Rohan's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#contactUs">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+    
+      <section class="firstSection" id="home" >
+        <div class="leftSection" >
+          Hi, My name is <span class="purple">Rohan</span>
+          <div>and I am a passionate</div>
+
+          <!-- Element to contain animated typing -->
+          <span id="element"></span>
+          <div class="buttons">
+            <a href="C:\PORTFOLIO PROJECT" download="C:\PORTFOLIO PROJECT\Rohans Resume(1).pdf"><button class="btn">Download Resume</button></a>
+            <button class="btn">Visit Github</button>
+          
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="dev2.png" alt="image" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection" id="about">
+        <span class="textgray">What I have done so far?</span>
+        <h1>Work Experience</h1>
+        <div class="horizontal-line">
+          <div class="vertical-line">
+            <img class="imagetopH" src="developer.png" alt="" />
+            <div class="vertical-Role">HTML Developer (2010-2012)</div>
+            <div class="vertical-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
+              architecto impedit dolorem totam voluptas, sed, illo rerum ipsam
+              fugit deleniti vel esse omnis!
+            </div>
+          </div>
+          <div class="vertical-line">
+            <img class="imagetopinsta" src="insta.png" alt="" />
+            <div class="vertical-Role">Java Developer (2012-2016)</div>
+            <div class="vertical-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
+              architecto impedit dolorem totam voluptas, sed, illo rerum ipsam
+              fugit deleniti vel esse omnis!
+            </div>
+          </div>
+          <div class="vertical-line">
+            <img class="imagetop" src="y.png" alt="" />
+            <div class="vertical-Role">React Developer (2016-2020)</div>
+            <div class="vertical-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
+              architecto impedit dolorem totam voluptas, sed, illo rerum ipsam
+              fugit deleniti vel esse omnis!
+            </div>
+          </div>
+          <div class="vertical-line">
+            <img class="imagetopg" src="g2.png" alt="" />
+            <div class="vertical-Role">Software Engineer (2020-2024)</div>
+            <div class="vertical-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
+              architecto impedit dolorem totam voluptas, sed, illo rerum ipsam
+              fugit deleniti vel esse omnis!
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section class="main2" id="service">
+        <div class="services"><h3 style="color: rgb(170,107,228);">What we Offer?</h3><h1>Services</h1></div>
+        <fieldset class="fieldsets">
+          <div class="firstService">
+            <h1>Freelancing :</h1>
+            <span class="spans">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui doloremque quam iusto earum nisi dicta modi delectus, dignissimos at recusandae? Possimus, amet aspernatur.</span>
+          </div>
+          <div class="secondService">
+            <h1>Video Editing :</h1>
+            <span class="spans">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita facilis culpa eaque vero, reprehenderit, dolorum accusantium, suscipit maxime velit eius voluptatibus a libero.</span>
+          </div>
+          <div class="thirdService">
+            <h1>3D Graphics Designing :</h1>
+            <span class="spans">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste assumenda exercitationem, esse molestiae deserunt autem blanditiis rem dolorem perspiciatis veniam recusandae sunt eius.</span>
+          </div>
+
+        </fieldset>
+      </section>
+      <hr>
+    </main>
+    <footer>
+      <div class="footer" id="contactUs">
+        <div class="footerfirst">
+        <h2>Rohan's Developer Portfolio</h2>
+      </div>
+        <div class="footerfourth"> 
+          <ul style="display: flex; ">
+            <li><img src="whatsapp.png"></li> 
+            <li><img src="linkedin.png"></li>
+            <li><img src="twitter.png"></li>
+            <li><img src="telegramx.png" alt=""></li>
+           </ul>
+        </div>
+      </div>
+      <div class="footerrights">
+       Copyright &#169; <u>www.rohansportfolio.com</u> | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer.",
+          "Graphic Designer.",
+          "Learner.",
+          "Video Editor.",
+        ],
+        typeSpeed: 50,
+      });
+    
+    </script>
+  </body>
+</html>
